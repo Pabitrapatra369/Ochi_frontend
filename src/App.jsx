@@ -1,3 +1,6 @@
+import About from "./components/About";
+import Eyes from "./components/Eyes";
+import Featured from "./components/Featured";
 import Landingpage from "./components/Landingpage";
 import Marquee from "./components/Marquee";
 import Navbar from "./components/NavBar";
@@ -7,6 +10,9 @@ function App() {
       <Navbar />
       <Landingpage />
       <Marquee />
+      <About />
+      <Eyes />
+      <Featured/>
     </div>
   );
 }
