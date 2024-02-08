@@ -16,9 +16,18 @@ function Featured() {
             src="https://ochi.design/wp-content/uploads/2023/10/Fyde_Illustration_Crypto_2-663x551.png"
             alt=""
           />
-          <div>
+          <div className=" flex gap-4">
             <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
               audit
+            </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              copyright
+            </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              sales desk
+            </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              slides design
             </p>
           </div>
         </div>
@@ -32,10 +41,14 @@ function Featured() {
             src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"
             alt=""
           />
-          <div>
+          <div className=" flex gap-4">
             <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
-              audit
+              agency
             </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              COmpany presentation
+            </p>
+            
           </div>
         </div>
         <div className=" ml-10">
@@ -48,9 +61,15 @@ function Featured() {
             src="https://ochi.design/wp-content/uploads/2022/09/Vise_front2-663x551.jpg"
             alt=""
           />
-          <div>
+          <div className=" flex gap-4">
             <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
-              audit
+              brand identity
+            </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              design research
+            </p>
+            <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
+              investor desk
             </p>
           </div>
         </div>
@@ -64,9 +83,9 @@ function Featured() {
             src="https://ochi.design/wp-content/uploads/2022/12/PB-Front-4-663x551.png"
             alt=""
           />
-          <div>
+          <div className=" flex gap-4">
             <p className=" uppercase border-2 border-black text-black inline-block rounded-full px-2 mt-4">
-              audit
+              branded templet
             </p>
           </div>
         </div>
