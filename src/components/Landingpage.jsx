@@ -1,15 +1,17 @@
+import { motion } from "framer-motion";
 import { FaCircleArrowRight } from "react-icons/fa6";
 
 function Landingpage() {
+  
   return (
-    <div className=" w-full h-screen bg-zinc-900 pt-2    ">
+    <div data-scroll data-scroll-section data-scroll-speed="-.2" className=" w-full h-screen bg-zinc-900 pt-2    ">
       <div className="textstructure mt-40 mx-24 font-['gilroy']">
         <h1 className="masker uppercase text-8xl leading-[5vw] tracking-tighter font-semibold">
           we create
         </h1>
       </div>
       <div className="textstructure flex  mx-24 font-['gilroy']">
-        <div className="h-[5vw] w-[8vw] rounded-md bg-red-300 relative top-1"></div>
+        <motion.div initial={{width:0}} animate={{width:"8vw"}} transition={{ease:[0.76, 0, 0.24, 1], duration:1} } className="h-[5vw] w-[8vw] rounded-md bg-red-300 relative top-1"></motion.div>
         <h1 className="masker uppercase text-8xl leading-[6vw] tracking-tighter font-semibold">
           eye-opening
         </h1>
